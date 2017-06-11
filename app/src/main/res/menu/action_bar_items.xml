@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bell"
+        android:icon="@mipmap/ic_bell_ico"
+        android:title="Notificationsa"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/temp"
+        android:title="Temp"
+        app:showAsAction="always" />
+
+</menu>

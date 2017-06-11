@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="dummy item"/>
+    <item
+        android:title="dummy item"/>
+    <item
+        android:title="Active Trips"
+        android:icon="@mipmap/ic_active_trips_ico"
+        android:id="@+id/active_trips_item"/>
+    <item
+        android:title="Communities"
+        android:icon="@mipmap/ic_communities_ico"/>
+    <item
+        android:title="Earnings"
+        android:icon="@mipmap/ic_earnings"/>
+    <item
+        android:title="Free Rides"
+        android:icon="@mipmap/ic_free_rides_ico"/>
+    <item
+        android:title="Help/FAQ"
+        android:icon="@mipmap/ic_help_faq_ico"/>
+    <item
+        android:title="About"
+        android:icon="@mipmap/ic_about_ico"/>
+
+</menu>

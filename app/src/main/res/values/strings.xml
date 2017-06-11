@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="google_maps_key">AIzaSyBynfFi0iHbV3BdUzPTjc4WcgpfpN0UcjU</string>
+    <string name="google_api_key_HTTPS">AIzaSyAoBNUd_6EUEBkeaBOFv6VNO_lGCbVabZA</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="app_name">Raye7 Challenge 2</string>
+    <string name="title_activity_maps">Raye7 Android Challenge</string>
+    <string name="makeActionAcc">Make an Action Accordingly</string>
+
+</resources>
