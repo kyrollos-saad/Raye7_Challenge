@@ -313,7 +313,8 @@ class FromToCoordinates
         if (fromLatLng == null)//if fromLatLng was set to null explicitly
         {
             mMap.animateCamera(CameraUpdateFactory.newCameraPosition(CameraPosition.fromLatLngZoom(new LatLng(30.0939351,31.2237256), 10.0f)));
-            fromMarker.setVisible(false);
+            if (fromMarker != null)
+                fromMarker.setVisible(false);
             return;
         }
 
@@ -329,7 +330,8 @@ class FromToCoordinates
         if (toLatLng == null)//if toLatLng was set to null explicitly
         {
             zoomOutToCairoNewCairoGiza6thOfOctober();
-            toMarker.setVisible(false);
+            if (toMarker != null)
+                toMarker.setVisible(false);
             return;
         }
 
